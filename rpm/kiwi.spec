@@ -66,7 +66,7 @@ BuildRequires:  zypper
 Requires:       perl >= %{perl_version}
 Requires:       checkmedia
 Requires:       coreutils
-Requires:       kiwi-tools >= %{version}
+Requires:       kiwi-tools >= 1:%{version}
 Requires:       libxslt
 Requires:       perl-Class-Singleton
 Requires:       perl-Config-IniFiles
